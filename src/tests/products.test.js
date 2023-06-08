@@ -43,7 +43,7 @@ test('GET /products', async () => {
 
 test('POST /products/:id/images should set the products images', async () => {
     const imgReq = {
-        url: "http://falseirl.com",
+        url: "https://res.cloudinary.com/dprtv7vft/image/upload/v1686066441/e%20commerce%20app/a.jpg",
         publicId: "1", 
     }
     const image = await ProductsImg.create(imgReq)
